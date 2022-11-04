@@ -27,7 +27,7 @@ second_data=pd.read_csv("Super_store_preprocessed.csv")
 #set the assets_folder location to the assets folder which contains css files
 
 app = dash.Dash(__name__, prevent_initial_callbacks=True,meta_tags=[{"name": "viewport", "content": "width=device-width"}])
-
+server = app.server
 app.layout = html.Div([
     html.Div([
         html.Div([
