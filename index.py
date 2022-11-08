@@ -12,7 +12,7 @@ import plotly.express as px
 
 import dash
 import plotly.graph_objs as go
-from jupyter_dash import JupyterDash
+#from jupyter_dash import JupyterDash
 
 #Statistical libraries an ML
 
